@@ -1,60 +1,202 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THE Music Store offers a wide variety of musical instruments, courses, books, and accessories.">
     <title>THE Music Store</title>
+
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1497722521893-cbb3a15a7bb7') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);  /* Semi-transparent background */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .intro-text, .footer {
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #28a745;
+            border-radius: 5px;
+        }
+
+        /* Course Section */
+        .courses-list, .intro-course {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .course-item, .intro-item {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            flex-basis: 32%;
+        }
+
+        .course-item:hover, .intro-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .intro-item h3 {
+            color: #333;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #aaffaa;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #28a745;
+        }
+
+        /* Button Style */
+        .btn-signup {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-signup:hover {
+            background-color: #218838;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .courses-list, .intro-course {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .course-item, .intro-item {
+                flex-basis: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    Welcome to &lt;&lt;THE Music Store&gt;&gt;
 
-    <!-- Main text goes here -->
-    <p>
-        Here at THE Music Store,
-        we have the finest selection of instruments and accessories.
-        Whether you want to be the proud new owner of a guitar,
-        piano, drums, a ukulele, a trombone, or even a kazoo,
-        you have come to the right place.
-    </p>
-
-    <p>
-        In addition to having a wide variety of instruments,
-        we offer a whole host of music courses,
-        to help you learn how to play your new instrument well.
-        After all, we are sure you want to make good noise with
-        your instruments.
-    </p>
-
-    And, we have a great selection of music books,
-    sheet music, and other music accessories.
-
-    We currently offer courses for the following instruments:
-    <ul style="list-style-type:square">
-        <li>Guitar</li>
-        <li>Piano</li>
-        <li>Drums</li>
-    </ul>
-
-    Plus, one Saturday a month we have a free introductory course on an instrument. Signing up is easy. All you need to do is:
-    <ol style="list-style-type:upper-alpha">
-        <li>Join our music club</li>
-        <li>Sign up to receive emails on upcoming events</li>
-        <li>Sign up for a course</li>
-    </ol>
-
-    We are open seven days a week. Our hours do vary from season 
-    to season, so check back with us frequently.<br />
-    We look forward to seeing you!
-
-    <hr />
-    <div align="center">
-        Home | Books | Contact Us | <a href="spotlight.html" target="_blank">Spotlight</a>
-
-        &copy;2017, <span style="color:darkgreen">THE Music Store</span>
-        1000 Broadway, Salt Lake City, UT 84103
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="spotlight.html" target="_blank">Spotlight</a>
     </div>
-    <!-- We also need:
-        Images
-        Links
-    -->
+
+    <div class="content">
+        <h1>Welcome to THE Music Store</h1>
+
+        <p class="intro-text">
+            Here at THE Music Store, we have the finest selection of instruments and accessories. Whether you want to be the proud new owner of a guitar, piano, drums, ukulele, trombone, or even a kazoo, you've come to the right place.
+        </p>
+
+        <p class="intro-text">
+            In addition to a wide variety of instruments, we offer a whole host of music courses to help you learn how to play your new instrument well. After all, we want you to make beautiful music!
+        </p>
+
+        <h2>Courses We Offer</h2>
+        <div class="courses-list">
+            <div class="course-item">
+                <h3>Guitar</h3>
+                <img src="https://images.unsplash.com/photo-1579648910492-c86d50977418" alt="Guitar Course" style="width: 100%; border-radius: 8px;">
+                <p>Learn to play your favorite songs and become a guitar virtuoso!</p>
+            </div>
+            <div class="course-item">
+                <h3>Piano</h3>
+                <img src="https://images.unsplash.com/photo-1495952068595-bb44d43366ad" alt="Piano Course" style="width: 100%; border-radius: 8px;">
+                <p>Start your musical journey with piano lessons for all skill levels.</p>
+            </div>
+            <div class="course-item">
+                <h3>Drums</h3>
+                <img src="https://images.unsplash.com/photo-1554963709-e8e2f85c48ea" alt="Drums Course" style="width: 100%; border-radius: 8px;">
+                <p>Feel the rhythm and learn to play the drums with expert guidance.</p>
+            </div>
+        </div>
+
+        <h2>Free Introductory Course</h2>
+        <div class="intro-course">
+            <div class="intro-item">
+                <h3>Sign up for Our Free Course</h3>
+                <p>One Saturday a month, we offer a free introductory course on a different instrument. Signing up is easy:</p>
+                <ol>
+                    <li>Join our music club</li>
+                    <li>Sign up for our newsletter</li>
+                    <li>Register for the course of your choice</li>
+                </ol>
+                <a href="signup.html" class="btn-signup">Sign Up Now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>
+            <span>&copy; 2017, THE Music Store</span><br>
+            1000 Broadway, Salt Lake City, UT 84103
+        </p>
+        <p>
+            <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+        </p>
+    </div>
+
 </body>
 </html>
