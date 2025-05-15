@@ -18,7 +18,7 @@
             text-align: center;
             padding: 1rem 0;
         }
-        h1 {
+        header h1 {
             margin: 0;
             font-size: 2.5rem;
         }
@@ -34,20 +34,15 @@
             margin: 1rem 0;
             padding: 0 20px;
         }
-        ul {
-            margin: 1rem 0;
-            padding-left: 40px;
-        }
-        ol {
+        ul, ol {
             margin: 1rem 0;
             padding-left: 40px;
         }
         img {
-            width: 200px;
-            margin: 0.5rem 0;
+            width: 100%;
+            max-width: 300px;
+            margin: 1rem auto;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
         }
         footer {
             text-align: center;
@@ -60,12 +55,31 @@
             text-decoration: none;
             margin: 0 10px;
         }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            h2, h3 {
+                font-size: 1.5rem;
+            }
+            p, ul, ol {
+                padding: 0 15px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to <<THE Music Store>></h1>
+        <h1>Welcome to THE Music Store</h1>
     </header>
 
     <main>
@@ -127,3 +141,4 @@
 
 </body>
 </html>
+
