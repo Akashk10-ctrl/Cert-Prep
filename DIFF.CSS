@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark background for nav */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* White text for links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6347; /* Hover color for links */
+}
+
+/* Heading Style */
+h1 {
+    text-align: center;
+    color: #2e3b4e; /* Dark color for heading */
+    padding-top: 20px;
+}
+
+/* Paragraph Style */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffff99; /* Yellow background for paragraph */
+    color: #333; /* Text color */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Code Styling */
+code {
+    background-color: #ffeb3b; /* Bright yellow background for code */
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
