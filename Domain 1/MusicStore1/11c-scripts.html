@@ -1,15 +1,23 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Script Support</title>       
+    <meta charset="UTF-8">
+    <meta name="keywords" content="music, store, instruments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>Music Store</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    Script test
-    <script language="JavaScript">
-        alert('This browser supports JavaScript')
+    <!-- Content of your webpage -->
+    <h1> Welcome to &lt;&lt;THE Music Store&gt;&gt;</h1>
+
+    <script>
+        if (navigator.javaEnabled()) {
+            alert("Your browser supports JavaScript!");
+        } else {
+            alert("Your browser does not support JavaScript.");
+        }
     </script>
-    <noscript>
-        This browser does not support JavaScript.
-    </noscript>
 </body>
 </html>
