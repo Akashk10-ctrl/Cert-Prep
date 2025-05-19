@@ -6,3 +6,9 @@
 p {
     color: navy;
 }
+/* Add this to the bottom of 22b-main.css */
+
+.sale {
+  font-weight: bold;
+  background-color: aqua;
+}
