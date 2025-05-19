@@ -2,33 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>THE Music Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books at the Music Store</title>
+  <!-- External stylesheet linked here -->
+  <link rel="stylesheet" type="text/css" href="21b-main.css">
 
-  <!-- External stylesheet -->
-  <link rel="stylesheet" href="21b-main.css">
-
-  <!-- Internal stylesheet overrides external styles on this page -->
+  <!-- Internal stylesheet to override the external styles for paragraphs on this page -->
   <style>
     p {
-      color: maroon;
+      color: maroon; /* Overrides the external CSS (navy) and sets paragraphs to maroon */
     }
   </style>
 </head>
 <body>
-  <h2>Books and More</h2>
-  
-  <a href="#sale">This month's sale</a>
+
+  <h1>Books Available at the Music Store</h1>
 
   <p>
-    Like music history? How about sheet music? 
-    At THE Music Store, we have you covered with a wide range of books, sheet music, and of course, you
-    need something to hold that sheet music, so we have music stands. Check out some of the pictures below.
+    This text should be maroon because of the internal CSS.
   </p>
-  
+
   <details>
     <summary>Show or hide these books</summary>
 
-    <!-- This paragraph has inline style and will appear fuchsia -->
+    <!-- This paragraph has an inline style and will appear fuchsia -->
     <p style="color: fuchsia;">Look at all of these great books!</p>
 
     <p>
@@ -46,11 +43,9 @@
     </p>
   </details>
 
-  <!-- Sale section anchor and message -->
   <p id="sale">
     Special sale! Now through the end of the month, take an extra 10% off all non-instrument items.
   </p>
 
 </body>
 </html>
-
