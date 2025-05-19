@@ -1,5 +1,4 @@
-﻿/* 22a-main.css */
-
-body {
-  background-color: #fab66b; /* peach color */
+﻿/* Styling for paragraphs on all pages */
+p {
+    color: navy;
 }
