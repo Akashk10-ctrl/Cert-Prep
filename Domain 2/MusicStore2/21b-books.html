@@ -1,46 +1,56 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>THE Music Store</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <style>
-        p {
-            color: maroon;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>THE Music Store</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="21b-main.css">
+
+  <!-- Internal stylesheet overrides external styles on this page -->
+  <style>
+    p {
+      color: maroon;
+    }
+  </style>
 </head>
 <body>
-    Welcome to <<THE Music Store>>
+  <h2>Books and More</h2>
+  
+  <a href="#sale">This month's sale</a>
 
-    <!-- Main text goes here -->
-    <p>
-        Here at THE Music Store,
-        we have the finest selection of instruments and accessories.
-        Whether you want to be the proud new owner of a guitar,
-        piano, drums, a ukulele, a trombone, or even a kazoo,
-        you have come to the right place.
-    </p>
+  <p>
+    Like music history? How about sheet music? 
+    At THE Music Store, we have you covered with a wide range of books, sheet music, and of course, you
+    need something to hold that sheet music, so we have music stands. Check out some of the pictures below.
+  </p>
+  
+  <details>
+    <summary>Show or hide these books</summary>
 
-    <p>
-        In addition to having a wide variety of instruments,
-        we offer a whole host of music courses,
-        to help you learn how to play your new instrument well.
-        After all, we are sure you want to make good noise with
-        your instruments.
-    </p>
-
+    <!-- This paragraph has inline style and will appear fuchsia -->
     <p style="color: fuchsia;">Look at all of these great books!</p>
 
-    And, we have a great selection of music books,
-    sheet music, and other music accessories.
+    <p>
+      <img src="Images/musicbooks.jpg" alt="music books" width="920" height="690" />
+    </p>
 
-    <hr />
-    <div align="center">
-        Home | Books | Contact Us | <a href="spotlight.html" target="_blank">Spotlight</a>
+    <p>
+      Here is some sheet music for you.
+      <img src="Images/musicstand.jpg" alt="music stand" width="920" height="690" />
+    </p>
 
-        &copy;2017, <span style="color:darkgreen">THE Music Store</span>
-        1000 Broadway, Salt Lake City, UT 84103
-    </div>
+    <p>
+      And this will give you a musical leg to stand on.
+      <img src="Images/sheetmusic.jpg" alt="sheet music" width="920" height="690" />
+    </p>
+  </details>
+
+  <!-- Sale section anchor and message -->
+  <p id="sale">
+    Special sale! Now through the end of the month, take an extra 10% off all non-instrument items.
+  </p>
+
 </body>
 </html>
+
