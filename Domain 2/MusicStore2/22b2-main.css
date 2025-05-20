@@ -10,3 +10,8 @@ p {
     font-weight:bold;
     background-color:aqua;
 }
+/* Other existing styles above this line */
+
+#sidenote {
+  background-color: #dbd9d9;
+}
