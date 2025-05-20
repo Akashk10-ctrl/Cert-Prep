@@ -13,3 +13,13 @@ p {
 #sidenote {
     background-color:#dbd9d9;
 }
+/* Normal state of links */
+a {
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Hover state of links */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    font-weight: bold; /* Bold text on hover */
+}
