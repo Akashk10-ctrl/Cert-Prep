@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Contact Us</title>
 </head>
 <body>
     <h2>Contact Us</h2>
@@ -12,7 +12,7 @@
     </p>
 
     <!-- insert form here-->
-    <form action="thankyou.html" method="post">
+    <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" />
         <br />
@@ -29,8 +29,12 @@
         </select>
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
+        <br />
         <button name="showimage" onclick="">Show image</button>
         <input type="submit" name="submitform" value="Send it" /> <br />
+        
+        <!-- Output display for full name -->
+        <output name="fn"></output>
     </form>
 
 </body>

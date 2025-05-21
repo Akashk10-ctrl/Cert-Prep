@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Contact Us</title>
 </head>
 <body>
     <h2>Contact Us</h2>
@@ -23,11 +23,20 @@
         <input type="email" name="email" id="email" />
         <p>How did you hear about us?</p>
         <select name="found" id="found">
-            <option value="TV">TV</option>
+            <!-- New Optgroup for Media -->
+            <optgroup label="Media">
+                <option value="TV">TV</option>
+            </optgroup>
+
+            <!-- Existing options -->
             <option value="Web" selected>Radio</option>
             <option value="Other">Other</option>
-            <option value="Google">Google</option>
-            <option value="Bing">Bing</option>
+
+            <!-- Optgroup for Web-related options -->
+            <optgroup label="Web">
+                <option value="Google">Google</option>
+                <option value="Bing">Bing</option>
+            </optgroup>
         </select>
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
