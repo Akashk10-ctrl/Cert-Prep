@@ -1,7 +1,8 @@
 ﻿body {
-    font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f7d2aa;
 }
+
 p {
     color: navy;
 }
@@ -11,20 +12,26 @@ p {
 figcaption {
     color: navy;
     font-weight: bold;
-    /*background-color: #AAEEFF;*/
+    background-color: #AAEEFF; /* Step 2: Uncommented */
+    display: inline;           /* Step 3: Added */
 }
+
 .sale {
     font-weight: bold;
     background-color: #AAEEFF;
 }
+
 #sidenote {
     background-color: #DDDDDD;
+    display: inline;           /* Step 4: Added */
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-    font-family: 'Palatino Linotype','Times New Roman', serif;
+    font-family: 'Palatino Linotype', 'Times New Roman', serif;
 }
