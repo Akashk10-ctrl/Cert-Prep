@@ -1,7 +1,8 @@
 ﻿body {
     font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa
+    background-color: #f7d2aa;
 }
+
 p {
     color: navy;
 }
@@ -11,23 +12,28 @@ p {
 h1,h2,h3,h4,h5,h6 {
     font-family:Helvetica,Arial,sans-serif;
 }
+
 h1 {
     font-size:18pt;
 }
+
 figcaption {
     font-weight: bold;
     background-color: #AAEEFF;
     display:inline;
     color:#032f0d;
 }
+
 .sale {
     background-color: #AAEEFF;
     font-style:italic;
     font-weight:bold;
 }
+
 .indent {
     padding:5em;
 }
+
 #sidenote {
     background-color: #333333;
     display: inline;
@@ -37,27 +43,40 @@ figcaption {
     border-left-width:2px;
     border-right-width:2px;*/
     border: 2px solid navy;
-    color: #f7d2aa
+    color: #f7d2aa;
 }
+
 #pagewidth {
     width:500px;
 }
+
 a {
     text-decoration: none;
     color:darkgreen;
 }
+
 a:active {
     color:#63f60a;
 }
+
 a:visited {
     color:#808080;
 }
+
 a:hover {
     text-decoration: double;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
 }
+
 td.vbot {
     vertical-align:bottom;
     height:30px;
+}
+
+/* Media Query for screens with max width 500px */
+@media screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
 }

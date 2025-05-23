@@ -9,23 +9,23 @@
             border: 1px solid black;
             width: 250px;
             height: 250px;
-            float:left;
-            text-align:left;
-            padding:.5em;
+            float: left;
+            text-align: left;
+            padding: .5em;
         }
         #yellow {
             background-color: yellow;
             border: 1px solid black;
             width: 250px;
             height: 250px;
-            float:left;
+            float: left;
             /*clear:both;
             position:absolute;
             top:100px;
             left:100px;*/
-            text-align:center;
+            text-align: center;
             margin: 0px 10px 0px 5px;
-            padding-top:.5em;
+            padding-top: .5em;
         }
         #coral {
             background-color: lightcoral;
@@ -33,15 +33,25 @@
             width: 250px;
             height: 250px;
             /*max-width:750px;*/
-            position:relative;
-            top:100px;
-            overflow:scroll;
-            text-align:justify;
-            visibility:hidden;
+            position: relative;
+            top: 100px;
+            overflow: scroll;
+            text-align: justify;
+            visibility: hidden;
+        }
+
+        /* New backimage class */
+        .backimage {
+            background-image: url('Images/kazoo transparent.jpg');
+            background-repeat: repeat-y;
+            /* Optional: You may want to position the image on the left */
+            background-position: left top;
+            /* Optional: Make sure it covers the full height */
+            background-attachment: fixed;
         }
     </style>
 </head>
-<body>
+<body class="backimage">
     <div id="blue">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
         Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
@@ -52,7 +62,7 @@
         Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
         Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
         Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-        <p onclick="javascript:document.getElementById('coral').style.visibility='visible'";>Click to see the coral box</p>
+        <p onclick="javascript:document.getElementById('coral').style.visibility='visible';">Click to see the coral box</p>
 
     </div>
     <div id="coral">
@@ -65,7 +75,6 @@
         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam.
         Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
         Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 
     </div>
 </body>
