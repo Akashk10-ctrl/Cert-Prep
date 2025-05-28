@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akash Khelawan Cert</title>
     <link rel="icon" href="Screenshot 2025-04-23 122917.png" type="image/png" alt="Akash Khelawan Favicon">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
     <style>
         /* Basic reset and body styling */
         body {
@@ -17,29 +17,37 @@
             padding: 0;
             background-color: #10e9d7;
         }
+
+        /* Header and navigation styling */
         header {
             background-color: #3112e1bd;
             padding: 1rem 0;
         }
+
         nav {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-evenly; /* Align items evenly */
             align-items: center;
             padding: 0 20px;
         }
+
         nav a {
             color: white;
             text-decoration: none;
             padding: 14px 20px;
             text-align: center;
         }
+
         nav a:hover {
             background-color: #ddd;
             color: rgb(236, 13, 13);
         }
+
+        /* Dropdown container */
         .dropdown {
             position: relative;
         }
+
         .dropbtn {
             font-size: 16px;
             color: rgba(236, 241, 134, 0.642);
@@ -48,6 +56,7 @@
             border: none;
             cursor: pointer;
         }
+
         .dropdown-content {
             display: none;
             position: absolute;
@@ -56,41 +65,50 @@
             z-index: 1;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
         }
+
         .dropdown-content a {
             color: white;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
+
         .dropdown-content a:hover {
             background-color: #ddd;
             color: black;
         }
+
+        /* Show the dropdown menu on hover */
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+        /* Main content styling */
         main {
             padding: 20px;
         }
+
         h1 {
             text-align: center;
             font-size: 2.5rem;
         }
-        h2 {
-            margin-top: 1.5rem;
-        }
+
+        /* Make the layout responsive */
         @media (max-width: 768px) {
             nav {
                 flex-direction: column;
                 align-items: flex-start;
             }
+
             .dropdown-content {
                 width: 100%;
             }
+
             .dropbtn {
                 width: 100%;
                 text-align: left;
             }
+
             nav a {
                 padding: 12px 18px;
             }
@@ -99,39 +117,153 @@
 </head>
 <body>
 
-<header>
-    <nav>
-        <a href="index.html">Home</a>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
 
-        <!-- Domains with dropdown menus omitted for brevity -->
+            <!-- Domain 1 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 1</button>
+                <div class="dropdown-content">
+                    <a href="Domain 1/MusicStore1/11a-scripts.html">11a-scripts</a>
+                    <a href="Domain 1/MusicStore1/11c-scripts.html">11c-scripts</a>
+                </div>
+            </div>
 
-    </nav>
-</header>
+            <!-- Domain 2 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 2</button>
+                <div class="dropdown-content">
+                    <a href="Domain 2/MusicStore2/21a-index.html">21a-index</a>
+                    <a href="Domain 2/MusicStore2/21b-books.html">21b-books</a>
+                    <a href="Domain 2/MusicStore2/21b-index.html">21b-index</a>
+                    <a href="Domain 2/MusicStore2/22a-index.html">22a-index</a>
+                    <a href="Domain 2/MusicStore2/22b-books.html">22b-books</a>
+                    <a href="Domain 2/MusicStore2/22b2-spotlight.html">22b2-spotlight</a>
+                     <a href="Domain 2/MusicStore2/22b3-books.html">22b3-books</a>
+                </div>
+            </div>
 
-<main>
-    <h1>Akash Khelawan Cert Prep</h1>
-    <img src="Akash.png" alt="Picture of Akash Khelawan" />
+            <!-- Domain 3 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 3</button>
+                <div class="dropdown-content">
+                    <a href="Domain 3/MusicStore3/31a-hours.html">31a-hours</a>
+                    <a href="Domain 3/MusicStore3/31a-hours2.html">31a-hours2</a>
+                    <a href="Domain 3/MusicStore3/31b-headings.html">31b-headings</a>
+                    <a href="Domain 3/MusicStore3/31b-index.html">31b-index</a>
+                    <a href="Domain 3/MusicStore3/31e-index.html">31e-index</a>
+                    <a href="Domain 3/MusicStore3/31h-index.html">31h-index</a>
+                    <a href="Domain 3/MusicStore3/32a-spotlight.html">32a-spotlight</a>
+                    <a href="Domain 3/MusicStore3/32g-books.html">32g-books</a>
+                    <a href="Domain 3/MusicStore3/32i-spotlight.html">32i-spotlight</a>
+                    <a href="Domain 3/MusicStore3/32j-hours2.html">32j-hours2</a>
+                    <a href="Domain 3/MusicStore3/33a-books.html">33a-books</a>
+                    <a href="Domain 3/MusicStore3/33b-index.html">33b-index</a>
+                    <a href="Domain 3/MusicStore3/33b-spotlight.html">33b-spotlight</a>
+                    <a href="Domain 3/MusicStore3/33c-books.html">33c-books</a>
+                    <a href="Domain 3/MusicStore3/33d-spotlight.html">33d-spotlight</a>
+                    <a href="Domain 3/MusicStore3/33e-links.html">33e-links</a>
+                    <a href="Domain 3/MusicStore3/34a-contactus.html">34a-contactus</a>
+                    <a href="Domain 3/MusicStore3/34d-contactus.html">34d-contactus</a>
+                    <a href="Domain 3/MusicStore3/34e-contactus.html">34e-contactus</a>
+                    <a href="Domain 3/MusicStore3/34f-contactus.html">34f-contactus</a>
+                    <a href="Domain 3/MusicStore3/34g-contactus.html">34g-contactus</a>
+                    <a href="Domain 3/MusicStore3/34h-contactus.html">34h-contactus</a>
+                    <a href="Domain 3/MusicStore3/34i-contactus.html">34i-contactus</a>
+                    <a href="Domain 3/MusicStore3/34j-contactus.html">34j-contactus</a>
+                    <a href="Domain 3/MusicStore3/34k-contactus.html">34k-contactus</a>
+                    <a href="Domain 3/MusicStore3/34l-contactus.html">34l-contactus</a>
+                    <a href="Domain 3/MusicStore3/books2.html">books2</a>
+                    <a href="Domain 3/MusicStore3/books3.html">books3</a>
+                 
+                    
+                </div>
+            </div>
 
-    <p>What I remember are basic HTML tags like <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, and <code>&lt;nav&gt;</code>.</p>
+            <!-- Domain 4 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 4</button>
+                <div class="dropdown-content">
+                    <a href="Domain 4/Student/MusicStore4/41a-instruments.html">41a-instruments</a>
+                    <a href="Domain 4/Student/MusicStore4/41a-instruments2.html">41a-instruments2</a>
+                    <a href="Domain 4/Student/MusicStore4/43a-media.html">43a-media</a>
+                    <a href="Domain 4/Student/MusicStore4/43b-media.html">43b-media</a>
+                    <a href="Domain 4/Student/MusicStore4/43e-media.html">43e-media</a>
+                </div>
+            </div>
 
-    <h2>Domain 1 summary</h2>
-    <p>I learned how to make a simple webpage using HTML. I added basic information to help the page work better. I changed the background color with CSS and learned how to display special symbols like &lt; and &gt;.</p>
+            <!-- Domain 5 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 5</button>
+                <div class="dropdown-content">
+              <a href="Domain 5/MusicStore5/51a-positioningexample.html">51a-positioningexample</a>
+             <a href="Domain 5/MusicStore5/51af-positioningexample.html">51af-positioningexample</a>
+             <a href="Domain 5/MusicStore5/51ao-positioningexample.html">51ao-positioningexample</a>
+             <a href="Domain 5/MusicStore5/51ar-positioningexample.html">51ar-positioningexample</a>
+             <a href="Domain 5/MusicStore5/51b-spotlight.html">51b-spotlight</a>
+             <a href="Domain 5/MusicStore5/51c-positioningexample.html">51c-positioningexample</a>
+             <a href="Domain 5/MusicStore5/51d-positioningexample.html">51d-positioningexample</a>
+             <a href="Domain 5/MusicStore5/52a-books.html">52a-books</a>
+             <a href="Domain 5/MusicStore5/52b-spotlight.html">52b-spotlight</a>
+             <a href="Domain 5/MusicStore5/52c-books.html">52c-books</a>
+             <a href="Domain 5/MusicStore5/52e-spotlight.html">52e-spotlight</a>
+             <a href="Domain 5/MusicStore5/52f-hours.html">52f-hours</a>
+             <a href="Domain 5/MusicStore5/52fi-index.html">52fi-index</a>
+             <a href="Domain 5/MusicStore5/53a-spotlight.html">53a-spotlight</a>
+             <a href="Domain 5/MusicStore5/53c-spotlight.html">53c-spotlight</a>
+             <a href="Domain 5/MusicStore5/53d-positioningexample.html">53d-positioningexample</a>
+             <a href="Domain 5/MusicStore5/53e-spotlight.html">53e-spotlight</a>
+             <a href="Domain 5/MusicStore5/54a-index.html">54a-index</a>
+             <a href="Domain 5/MusicStore5/54b-spotlight.html">54b-spotlight</a>
+             <a href="Domain 5/MusicStore5/54c-hours.html">54c-hours</a>
+             <a href="Domain 5/MusicStore5/54e-hours.html">54e-hours</a>
+             <a href="Domain 5/MusicStore5/grids.html">grid</a>
+             <a href="Domain 5/MusicStore5/display.html">display</a>
+             <a href="Domain 5/MusicStore5/positioningexample2.html">position</a>
+             <a href="Domain 5/MusicStore5/wordwrap.html">wordwrap</a>
+             <a href="Domain 5/MusicStore5/positioningelement1.html">positionelement</a>
+             <a href="Domain 5/MusicStore5/headings1.html">headings1</a>
+             <a href="Domain 5/MusicStore5/spacing.html">spacing</a>
+                </div>
+            </div>
 
-    <h2>Domain 2 summary</h2>
-    <p>I learned how to use CSS to style webpages by creating and using external, internal, and inline styles. I now know how to write correct CSS and link stylesheets. I also learned how to use classes and IDs for specific styling and how to add hover effects on links to improve page appearance.</p>
+            <!-- Domain 6 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 6</button>
+                <div class="dropdown-content">
+                    <a href="Domain 6/23a-spotlight.html">23a-spotlight</a>
+                    <a href="Domain 6/23b-spotlight.html">23b-spotlight</a>
+                     <a href="Domain 6/23c-spotlight.html">23c-spotlight</a>
+                      <a href="Domain 6/contactus-complete.html">contactus-complete</a>
+                       <a href="Domain 6/hierarchy.html">hierarchy</a>
+                        <a href="Domain 6/hours-complete.html">hours-complete</a>
+                         <a href="Domain 6/hours-mismatch.html">hours-mismatch</a>
+                          <a href="Domain 6/index.html">index</a>
+                           <a href="Domain 6/resizing.html">resizing</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <h2>Domain 3 summary</h2>
-    <p>I learned how to create and organize webpages using HTML. I can make tables and style them, add headings, paragraphs, line breaks, and use div and span tags for grouping. I also learned about lists, semantic tags (header, nav, article, footer), expandable sections, captions, images with descriptions, links (including opening in new tabs), and image maps.</p>
-
-    <h2>Domain 4 summary</h2>
-    <p>I learned how to add and manage images, videos, audio, and iframes in HTML. I now insert images with correct sizes and alt text, organize content with tables, link images, and add multimedia with controls and subtitles. I also learned to use iframes for embedding webpages.</p>
-
-    <h2>Domain 5 summary</h2>
-    <p>I’m practicing editing HTML and CSS files to style webpages. This includes text styles like small caps, alignment, decoration, indentation, line height, word wrap, letter and word spacing, borders, background images, and fixed widths using divs.</p>
-
-    <h2>Domain 6 summary</h2>
-    <p>I’m learning to reuse CSS, add comments, test across browsers, separate HTML and CSS, improve accessibility with alt text and colors, organize text properly, fix code mistakes, and handle CSS specificity to avoid conflicts.</p>
-</main>
-
+    <main>
+        <h1>Akash Khelawan Cert Prep</h1>
+        <img src="Akash.png" alt="Akash Khelawan"
+        <p>What I remember are basic HTML tags like <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, and <code>&lt;nav&gt;</code>.</p>
+        <h1>Domain 1 summary</h1>
+        <p><h3>i learned from domain one is how to make a simple webpage using HTML. I added some basic information to the page to help it work better. I changed the background color using CSS. I also learned how to show special symbols like < and > on the page. </p></h3>
+        <h1>Domain 2 summary</h1>
+        <p>I have learned from Domain 2 how to use CSS to style webpages by creating and using different types of styles like external, internal, and inline styles, and how they work together. I know how to write correct CSS code and link a stylesheet to an HTML page. I also learned how to use classes and IDs to style specific parts of a webpage and how to use special effects like changing a link’s look when you hover over it. Now, I can make webpages look better by using CSS.</p> 
+        <h1>Domain 3 summary</h1>
+        <p>I have learned from Domain 3 how to create and organize webpages using HTML. I can make tables and style them, add headings, paragraphs, and line breaks to format text. I learned to use div and span tags to group and style parts of a page, and add horizontal lines for separation. I know how to create bulleted and numbered lists, and use semantic tags to clearly define different sections like headers, navigation, articles, and footers. I also learned how to make expandable sections, add captions to images and tables, and include images with proper size and descriptions. I can create links to other pages or specific parts of a page, open links in new tabs, and manage links in different folders. Lastly, I learned how to make parts of images clickable with image maps.
+        <h1>Domain 4 summary</h1>
+        <p>I have learned from Domain 4 how to add and manage images, videos, audio, and iframes in HTML webpages. I now know how to insert images with correct sizes and alternative text, organize images and text using tables, and link images to other files. I can add videos with multiple formats and controls so users can play them, as well as add audio with controls and subtitles using track tags. I also learned how to use iframes to display one webpage inside another.</p>
+        <p>In Domain 5, I am doing tasks that involve editing HTML and CSS files to style webpages. This includes setting text styles like small caps, aligning and decorating text in tables, adding indentation to paragraphs, adjusting line height and word wrap, and controlling letter and word spacing. I also work with borders by changing their color, style, and width, apply background images that repeat, and set fixed widths for page content using divs.
+        <p>In Domain 6, I am learning how to reuse CSS code, add comments to explain my code, and test websites in different browsers to make sure they look right. I also practice keeping HTML and CSS separate, making websites accessible with good text alternatives and colors, and organizing text properly. I learn how to fix mistakes in my code and make sure styles work well without conflicts.</p>
+        </p>
+    </main>
+    
 </body>
 </html>
+
+
